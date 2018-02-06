@@ -25,6 +25,7 @@ function appendKitten(name) {
   return aKitten
 } 
 
+<<<<<<< HEAD
 function prependKitten(name) {
   var pKitten = [name, ...kittens]
   return pKitten
@@ -39,3 +40,6 @@ function removeFirstKitten() {
   var fikitten = kittens.slice(1)
   return fikitten
 }
+=======
+function 
+>>>>>>> 15d9ad130ad24dcb4e8b9f3e1848616b85b4b97c
